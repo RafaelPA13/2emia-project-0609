@@ -1,5 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/RafaelPA13/2emia-project-0609)
-# Pallavitinni
+# Pallavicinni
 Esse site será sobre venda de ternos e roupas chiques online.
 ## Autores
 - aluno1  João Pedro 14802
