@@ -1,4 +1,3 @@
-![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%RafaelPA13.github.io%2F2EMIA%2F)
 ![GitHub](https://img.shields.io/github/license/RafaelPA13/2emia-project-0609)
 # Pallavicinni
 Esse site será sobre venda de ternos e roupas chiques online.
