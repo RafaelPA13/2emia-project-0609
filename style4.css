@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+
+/* Smartphone Landscape */
+@media (min-width: 667px) {
+}
+
+/* Smartphone Portrait */
+@media (min-width: 375px) {
+  body{
+    width: 100%;
+  }
+
+  #tres{
+    margin-top: 70px;
+  }
+  
+  .img-produto{
+    height: 70px;
+    width: 190px;
+  }
+  
+  .img-produto2{
+    height: 90px;
+    width: 200px;
+  }
+  
+  
+  .img-relogio{
+    height: 170px;
+    width: 90px;
+  }
+
+}
+
+.Flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1{
+  font-family: 'Cardo', serif;
+    margin: none;
+  padding: none;    
+}
+
+.parte2 h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.parte2 h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: #5E6E89;
+}
+
+.Produtos1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 15px;
+  padding: 50px;
+} 
+
+.Produtos2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 15px;
+  padding: 50px;
+} 
+
+.Produtos3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 15px;
+  padding: 50px;
+} 
+
+
+
+.img-produto{
+  height: 90px;
+  width: 210px;
+}
+
+.img-produto2{
+  height: 100px;
+  width: 180px;
+}
+
+.img-produto3{
+    height: 100px;
+    width: 200px;
+  }
+
+
+.img-relogio{
+  height: 200px;
+  width: 120px;
+}
+
+.sombra{
+  background-color: #FDFAFA;
+  height: 62px;
+  width: 150px;
+  box-shadow: 10px 10px  12px lightblue;
+  margin-left: 30px ;
+}
+
+.sombra1{
+    background-color: #FDFAFA;
+    height: 62px;
+    width: 150px;
+  box-shadow: 10px 10px  12px #d3d3d3; 
+    margin-left: 10px ;
+  }
+
+.preco{
+  font-size: smaller;
+}
+
+h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 25px;
+
+}

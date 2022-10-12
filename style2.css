@@ -1,0 +1,214 @@
+h1{
+    font-family: 'Cardo', serif;
+    }
+    /*
+        Folha de estilo do site One Page HTML5 e CSS3
+        html5css3.com.br
+        @author Professor José de Assis
+        joseassis.com.br
+    */
+    
+    /* Importação (Google Fonts) */
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+    
+    /* CSS Reset */
+    * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1em;
+    }
+
+    /* Layout */
+.Container {
+    margin: auto;
+  }
+  
+  .Flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar{
+      display: flex;
+      flex-direction: row;
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #5E6E89;
+  }
+
+  .grupo1 img{
+    width: 300px;
+  }
+  
+  .grupo1 button{
+    background-color: #5E6E89;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .card img{
+    width: 900px;
+    height: auto;
+  }
+  .Produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+  
+  .Produtos1{ 
+  
+    display: flex; 
+  
+    flex-direction: row; 
+  
+    justify-content: center; 
+  
+    justify-content: space-around; 
+  
+
+  
+    padding: 50px; 
+  
+  }  
+  
+  
+  
+  
+  .Produtos2{ 
+  
+    display: flex; 
+  
+    flex-direction: row; 
+  
+    justify-content: center; 
+  
+    justify-content: space-around; 
+   
+  
+    padding: 50px; 
+  
+  }  
+  
+   
+  
+  .img-produto{ 
+  
+    height: 200px; 
+  
+    width: 180px; 
+  
+  } 
+
+  
+   
+  
+  .sombra{ 
+    background-color: #FDFAFA; 
+    height: 40px; 
+    width: 150px; 
+    box-shadow: 10px 10px  12px #d3d3d3; 
+    margin-left: 15px ; 
+  } 
+
+  .retangulo{
+    background-color: rgba(189, 164, 123, 0.73);
+    width: 85%;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+
+  .pecas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 75px;
+    margin-left: 10px;
+  }
+  
+  .pecas1 img{
+    width: 125px;
+    height: 200px;
+  }
+  
+  .pecas2 img{
+    width: 125px;
+    height: 200px;
+  }
+
+  .slogan{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slogan img{
+    width: 320px;
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+  }
+  
+@media(min-width: 992px){
+    .retangulo{
+        background-color: rgba(189, 164, 123, 0.73);
+        width: 1150px;
+        height: 800px;
+        margin-left: 55px;
+        margin-top: 25px;
+      }
+      .pecas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 75px;
+        margin-left: 10px;
+      }
+      
+      .pecas1 img{
+        width: 525px;
+        height: 600px;
+      }
+      
+      .pecas2 img{
+        width: 500px;
+        height: 600px;
+      }
+      .slogan{
+        display: flex;
+        justify-content: center;
+      }
+      
+      .slogan img{
+        width: 1150px;
+        height: 800px;
+        margin-top: 75px;
+        margin-left: 10px;
+        margin-bottom: 75px;
+      }
+}
