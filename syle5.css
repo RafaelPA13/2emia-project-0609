@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+h1{
+    font-family: 'Cardo', serif;
+}
+
+/*smartphone portrait*/
+@media (min-width: 375px){
+    html{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Header{
+        display: flex;
+        justify-content: center;
+        margin: 10px 20px 10px 20px;
+    }
+
+    main{
+        display: flex;
+        margin: 10px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 40px 10px 40px;
+    }
+
+    .descricao{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 40px 10px 40px;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+}
