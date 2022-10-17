@@ -1,4 +1,5 @@
 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgithub.com%2FRafaelPA13%2F2emia-project-0609&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR"></a>
+![GitHub](https://img.shields.io/w3c-validation/html?preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&targetUrl=https%3A%2F%2Fvalidator.nu%2F)
 
 ![GitHub](https://img.shields.io/github/license/RafaelPA13/2emia-project-0609)
 # Pallavicinni
