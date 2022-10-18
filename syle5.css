@@ -47,4 +47,7 @@ h1{
         margin: 10px;
     }
     
+    h1{
+        font-family: 'Cardo', serif;
+    }
 }
