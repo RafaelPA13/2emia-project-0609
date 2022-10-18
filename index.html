@@ -1,279 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="style4.css">
-  <title>Pallavicinni</title>
-  <link rel="icon" href="img/logo.png"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Pallavicinni</title>
+    <meta
+    name="description"
+    content="Descrever o site (máximo 150 caracteres)"
+  />
+  <!-- CSS bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+  <!-- CSS customizado -->
+  <link rel="stylesheet" href="style2.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="img/logo.png">
 </head>
-
 <body>
   <header>
     <nav class="navbar bg-light">
-      <a class="navbar-brand" href="teste.html"><img src="img/logo.png" alt="logo" srcset=""></a>
-      <h1>Pallavicinni</h1>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <a class="navbar-brand" href="teste.html"><img src="img/logo.png" alt="logo" srcset=""></a>
+          <h1>Pallavicinni</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="teste.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Promoções</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Produtos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ternos_home.html">Ternos</a></li>
+                  <li><a class="dropdown-item" href="blazers_home.html">Blazers</a></li>
+                  <li><a class="dropdown-item" href="calcas_home.html">Calças</a></li>
+                  <li><a class="dropdown-item" href="acessorios_home.html">Acessorios</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="teste.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Promoções</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Produtos:
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="ternos_home.html">Ternos</a></li>
-                <li><a class="dropdown-item" href="blazers_home.html">Blazers</a></li>
-                <li><a class="dropdown-item" href="calcas_home.html">Calças</a></li>
-                <li><a class="dropdown-item" href="acessorios_home.html">Acessorios</a></li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Procurar</button>
-          </form>
-        </div>
-      </div>
       </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </header>
-  <h2 class="text-center">Acessorios</h2>
-  <section>
-    <div class="Produtos1">
-
-      <div class="text-center">
-        <a href="detalhe_ace1.html" class="breadcrumb-item active">
-        <img class="text-center img-produto2" src="img/ace1.png" alt="terno1">
-        <div class="sombra">
-          <p class="">Pulseira Couro Black</p>
-          <p class="preco">Preço: R$300,00</p>
-        </div>
-        </a>
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-
-      <div class="text-center">
-        <a href="detalhe_ace2.html" class="breadcrumb-item active">
-        <img class="text-center img-produto2" src="img/ace2.png" alt="terno1">
-        <div class="sombra">
-          <p class="">Pulseira Stone</p>
-          <p class="preco">Preço: R$300,00</p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/ternos.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
         </div>
-        </a>
+    </div>
+    <div class="container">
+      <div class="parte2">
+        <h2>Produtos</h2>
+        <h3>Venha conferir alguns de nosso produtos</h3>
       </div>
+      <div class="container">
+        <div class="grupo1"> 
+          <img src="" alt="">
+        </div>
+      </div>
+  </main>
+  <section> 
 
+    <div class="Produtos1"> 
+
+
+
+
+        <div class="text-center"> 
+          <a href="ternos_home.html" class="breadcrumb-item active">
+          <img class="text-center img-produto" src="img/terno1.png" alt="Terno1"> 
+
+          <div class="sombra"> 
+
+          <p class="">Ternos</p>
+
+          </div> 
+        </a>
+        </div> 
+
+     
+
+        <div class="text-center"> 
+          <a href="blazers_home.html" class="breadcrumb-item active">
+            <img class="text-center img-produto" src="img/blazer.webp">
+            <div class="sombra"> 
+
+              <p class="">Blazers</p> 
+
+            </div> 
+            </a>
+          </div> 
+
+   
+
+      </div> 
+
+
+
+
+      <div class="Produtos2"> 
+
+
+
+
+        <div class="text-center">
+          <a href="calcas_home.html" class="breadcrumb-item active">
+          <img class="text-center img-produto" src="img/calça.jpg" alt="Calças"> 
+
+          <div class="sombra"> 
+
+            <p class="">Calças</p> 
+
+          </div> 
+        </a>
+        </div> 
+
+        <div class="text-center"> 
+          <a href="acessorios_home.html" class="breadcrumb-item active">
+          <img class="text-center img-produto" src="img/acessorios1.webp" alt="Terno1"> 
+
+          <div class="sombra"> 
+
+            <p class="">Acessorios</p> 
+
+          </div> 
+        </a>
+        </div> 
+     
+
+
+
+   
+
+      </div> 
+
+    <div class="retangulo">
+      
     </div>
 
-    <div class="Produtos2">
 
-      <div class="text-center" id="tres">
-        <a href="detalhe_ace3.html" class="breadcrumb-item active">
-        <img class="text-center img-produto2" src="img/ace3.png" alt="terno1">
-        <div class="sombra">
-          <p class="">Pulseira Flecha Prata </p>
-          <p class="preco">Preço: R$300,00</p>
 
-        </div>
-        </a>
+    </section>
+    <div class="pecas">
+      <a href="masculino.html">
+      <div class="pecas1">
+        <img src="img/pecas_masculinas.png" alt="">
+      </a>
       </div>
-
-      <div class="text-center">
-        <a href="detalhe_ace4.html" class="breadcrumb-item active">
-        <img class="text-center img-relogio" src="img/ace4.png" alt="relogio">
-        <div class="sombra1">
-          <p class="">Relógio Black Rose</p>
-          <p class="preco">Preço: R$850,00</p>
-
-        </div>
-        </a>
-      </div>
-
+    <div class="pecas2">
+      <a href="feminino.html">
+    <img src="img/pecas_femininas.png" class="rounded1 img-fluid" alt="feminino">
+  </a>
+    </div>
+    </div>
+    
+    <div class="slogan">
+      <img src="img/slogan.png" alt="slogan">
     </div>
 
-    <div class="Produtos3">
+                <!-- Rodapé -->
+   <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted footer">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <p>&#169;2022 - Pallavicinni </p>
+    </div>
+    <!-- Left -->
 
-      <div class="text-center">
-        <a href="detalhe_ace5.html" class="breadcrumb-item active">
-        <img class="text-center img-relogio" src="img/ace5.png" alt="relogio">
-        <div class="sombra1">
-          <p class="">Relógio Black Piano</p>
-          <p class="preco">Preço: R$700,00</p>
 
-        </div>
+
+   <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
       </a>
-      </div>
-
-      <div class="text-center">
-        <a href="detalhe_ace6.html" class="breadcrumb-item active">
-        <img class="text-center img-relogio" src="img/ace6.png" alt="relogio">
-        <div class="sombra1">
-          <p class="">Relógio Rose</p>
-          <p class="preco">Preço: R$700,00</p>
-
-        </div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
       </a>
-      </div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
 
+
+
+ <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Pallavicinni
+          </h6>
+          <p>
+            Seja sua versão mais estilosa, seja pallavicinni
+          </p>
+        </div>
+        <!-- Grid column -->
+
+
+
+       <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produtos
+          </h6>
+          <p>
+            <a href="ternos_home.html" class="text-reset">Ternos</a>
+          </p>
+          <p>
+            <a href="blazers_home.html" class="text-reset">Blazers</a>
+          </p>
+          <p>
+            <a href="calcas_home.html" class="text-reset">Calças</a>
+          </p>
+          <p>
+            <a href="acessorios_home.html" class="text-reset">Acessorios</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+
+
+       <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Preços</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Interesses</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pedidos</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ajuda</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+
+
+       <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+          <p><i class="fas fa-home me-3"></i> São Paulo, SP, Br</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            pallavicinni@fiap.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-print me-3"></i> + 10 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
     </div>
   </section>
-
-  <!-- Rodapé -->
-  <!-- Footer -->
-  <footer class="text-center text-lg-start bg-dark text-muted footer">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <p>&#169;2022 - Pallavicinni </p>
-      </div>
-      <!-- Left -->
+  <!-- Section: Links  -->
 
 
 
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-
-
-
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Pallavicinni
-            </h6>
-            <p>
-              Seja sua versão mais estilosa, seja pallavicinni
-            </p>
-          </div>
-          <!-- Grid column -->
-
-
-
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Produtos
-            </h6>
-            <p>
-              <a href="ternos_home.html" class="text-reset">Ternos</a>
-            </p>
-            <p>
-              <a href="blazers_home.html" class="text-reset">Blazers</a>
-            </p>
-            <p>
-              <a href="calcas_home.html" class="text-reset">Calças</a>
-            </p>
-            <p>
-              <a href="acessorios_home.html" class="text-reset">Acessorios</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Preços</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Interesses</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Pedidos</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Ajuda</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
-            <p><i class="fas fa-home me-3"></i> São Paulo, SP, Br</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              pallavicinni@fiap.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> + 01 234 567 89</p>
-            <p><i class="fas fa-print me-3"></i> + 10 234 567 89</p>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
-
-
-
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2022 Pallavicinni:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-
+ <!-- Copyright -->
+  <div class="text-center p-4 bg-dark" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Pallavicinni:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
-
-</html>
-Footer
-© 2022 GitHub, Inc.
